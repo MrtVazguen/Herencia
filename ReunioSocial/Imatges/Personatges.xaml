@@ -1,0 +1,26 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Reunió_Social">
+    
+    <BitmapImage x:Key="CambrerKey" UriSource="/Imatges/Cambrer.png"/>
+    <BitmapImage x:Key="Home0Key" UriSource="/Imatges/Home0.png"/>
+    <BitmapImage x:Key="Home1Key" UriSource="/Imatges/Home1.png"/>
+    <BitmapImage x:Key="Home2Key" UriSource="/Imatges/Home2.png"/>
+    <BitmapImage x:Key="Home3Key" UriSource="/Imatges/Home3.png"/>
+    <BitmapImage x:Key="Home4Key" UriSource="/Imatges/Home4.png"/>
+    <BitmapImage x:Key="Home5Key" UriSource="/Imatges/Home5.png"/>
+    <BitmapImage x:Key="Home6Key" UriSource="/Imatges/Home6.png"/>
+    <BitmapImage x:Key="Home7Key" UriSource="/Imatges/Home7.png"/>
+    <BitmapImage x:Key="Home8Key" UriSource="/Imatges/Home8.png"/>
+    <BitmapImage x:Key="Home9Key" UriSource="/Imatges/Home9.png"/>
+    <BitmapImage x:Key="Dona0Key" UriSource="/Imatges/Dona0.png"/>
+    <BitmapImage x:Key="Dona1Key" UriSource="/Imatges/Dona1.png"/>
+    <BitmapImage x:Key="Dona2Key" UriSource="/Imatges/Dona2.png"/>
+    <BitmapImage x:Key="Dona3Key" UriSource="/Imatges/Dona3.png"/>
+    <BitmapImage x:Key="Dona4Key" UriSource="/Imatges/Dona4.png"/>
+    <BitmapImage x:Key="Dona5Key" UriSource="/Imatges/Dona5.png"/>
+    <BitmapImage x:Key="Dona6Key" UriSource="/Imatges/Dona6.png"/>
+    <BitmapImage x:Key="Dona7Key" UriSource="/Imatges/Dona7.png"/>
+    <BitmapImage x:Key="Dona8Key" UriSource="/Imatges/Dona8.png"/>
+    <BitmapImage x:Key="Dona9Key" UriSource="/Imatges/Dona9.png"/>
+</ResourceDictionary>

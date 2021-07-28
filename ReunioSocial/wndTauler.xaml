@@ -1,0 +1,28 @@
+﻿<Window x:Class="ReunioSocial.wndTauler"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ReunioSocial"
+        mc:Ignorable="d"
+        Title="wndTauler" Height="400" Width="700">
+    <DockPanel x:Name="dpPrincipal">
+        <StackPanel Orientation="Vertical" DockPanel.Dock="Left">
+            <Button x:Name="btnSurt" Content="Surt" Click="btnSurt_Click" Margin="5"></Button>
+            <Button x:Name="btnCicle" Content="Cicle" Click="btnCicle_Click" Margin="5"></Button>
+            <Button Content="Simpaties" Margin="5" Name="btnSimpaties" Click="btnSimpaties_Click"></Button>
+            <Button  Margin="5" >
+                <Image Source="Imatges/Dona7.png" Height="25" Width="30" />
+            </Button>
+            <Button   Margin="5" >
+                <Image Source="Imatges/Home1.png" Height="25" Width="30" />
+            </Button>
+            <Button  Margin="5">
+                <Image Source="Imatges/Cambrer.png" Height="25" Width="30" />
+            </Button>
+            <Button Margin="5" Name="btnSortir" Click="btnSortir_Click">
+                <Image Source="Imatges/Exit.jpg" Height="25" Width="30" />
+            </Button>
+        </StackPanel>
+    </DockPanel>
+</Window>

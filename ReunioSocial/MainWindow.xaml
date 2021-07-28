@@ -1,0 +1,41 @@
+﻿<Window x:Class="ReunioSocial.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ReunioSocial" xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        mc:Ignorable="d"
+        Background="LightCyan"
+        Icon="Imatges/reunioSocials.png"
+        Title="Reunio Social" Height="280" Width="430">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Vertical" VerticalAlignment="Bottom" Margin="10">
+            <TextBlock Text="FILES" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            <xctk:IntegerUpDown  FontSize="20"   Minimum="1" Maximum="10" Value="5" Increment="1" x:Name="iudFiles"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Vertical" VerticalAlignment="Top" Margin="10">
+            <TextBlock Text="COLUMNES" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            <xctk:IntegerUpDown FontSize="20"  x:Name="iudColumnes" Minimum="1" Increment="1" Maximum="10" Value="5"/>
+        </StackPanel>
+        <StackPanel Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" Orientation="Vertical" VerticalAlignment="Center" Margin="10">
+            <TextBlock Text="HOMES" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            <xctk:IntegerUpDown FontSize="14"   x:Name="iudHomes"  Minimum="0" Maximum="50" Value="2"/>
+            <TextBlock Text="DONES" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            <xctk:IntegerUpDown FontSize="14"  x:Name="iudDones"  Minimum="0" Maximum="50" Value="2"/>         
+            <TextBlock Text="CAMBRERS" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            <xctk:IntegerUpDown FontSize="14"  x:Name="iudCambrers"  Minimum="0" Maximum="50" Value="1"/>     
+        </StackPanel>
+        <TextBlock x:Name="tbInfo" Foreground="Red" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" TextAlignment="Center" />
+        <Button Content="JUGAR!" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" Margin="10" Background="Yellow" Name="btnJugar" Click="btnJugar_Click"/>
+    </Grid>
+</Window>
